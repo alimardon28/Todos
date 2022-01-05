@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body class="body bg-primary">
+
+    <div class="container mt-4 p-4">
+      <div class="row">
+        <h1 class="heading text-center text-light fw-bold fs-1">Todo<span class="span text-danger">Ga</span> Xush <span class="text-primary">Kelibsiz !</span> </h1>
+        <div class="col-12 col-md-6 ">
+          <form class="form mt-3">
+            <div class="mb-3">
+              <input type="text" placeholder="Todo" required class="form-control input fw-bold fs-2">
+            </div>
+            <button type="submit" class="w-100 btn btn-primary button fw-bold fs-1"><i class="bi bi-hand-index fw-bold fs-1"></i> Click <i class="bi bi-hand-index fw-bold fs-1"></i></button>
+          <div class="alert mt-3 d-flex result alert-primary mt-2 sm-12">
+           <ul class="list fw-bold fs-1">
+           </ul>
+           </div>
+        </div>
+      <div class="col mt-3 ">
+        <div class="input-group-lg">
+          <input class="user_name form-control fw-bold fs-2" type="text" placeholder="Ismingizni kiriting !" required>
+        </div>
+        <div class="alert alert-primary w-100 mt-3 col-md-6">
+          <h4 class="userNameResult text-success fw-bold fs-1"></h4>
+      </div>
+      </div>
+      </div>
+      </form>
+  </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
