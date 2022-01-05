@@ -7,8 +7,6 @@ let elHeading = document.querySelector(".main-heading");
 
 let todos = []
 
-// let counter = 0
-
 elForm.addEventListener('submit' , function(evt){
     evt.preventDefault();
 
@@ -30,6 +28,8 @@ elForm.addEventListener('submit' , function(evt){
          newItem.textContent = item.name
          elList.appendChild(newItem)
      }
+
+
 
     //User name
     let userNameValue = elName.value;
