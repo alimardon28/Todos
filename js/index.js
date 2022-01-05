@@ -3,6 +3,7 @@ let elInput = document.querySelector(".input");
 let elName = document.querySelector(".user_name");
 let elList = document.querySelector(".list");
 let elNameResult = document.querySelector(".userNameResult");
+let elHeading = document.querySelector(".main-heading");
 
 let todos = []
 
@@ -10,6 +11,8 @@ let todos = []
 
 elForm.addEventListener('submit' , function(evt){
     evt.preventDefault();
+
+    elHeading.textContent = "Bugungi rejalaringiz marhamat !"
 
     let inputValue = elInput.value.trim()
 
