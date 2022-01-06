@@ -24,8 +24,11 @@ elForm.addEventListener('submit' , function(evt){
 
 
      for(let item of todos){
-         let newItem = document.createElement('li')
+         let newItem = document.createElement('li');
+         let newCheck = document.createElement('input');
          newItem.textContent = item.name
+         newItem.setAttribute('class' , 'user_item')
+         newCheck.setAttribute('class', 'form-check-input boder-2 border-dark me-3 delet')
          elList.appendChild(newItem)
      }
 

@@ -9,6 +9,16 @@
 }
 
 .list{
+    list-style: none;
     margin: 0;
-    border-bottom: 2px solid #ccc;
+}
+
+
+.user_item{
+    border: 2px solid rgb(82, 82, 240);
+    margin-bottom: 6px;
+}
+
+.chek{
+    display: none;
 }
